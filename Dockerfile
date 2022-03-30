@@ -10,7 +10,7 @@
 #
 # See x11docker --help for further options.
 
-FROM debian:bullseye-slim
+FROM debian:11-slim
 
 RUN apt-get update && \
     env DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
